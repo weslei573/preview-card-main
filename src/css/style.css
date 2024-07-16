@@ -8,9 +8,73 @@
 }
 
 * {
-	font-family: 'Figtree', sans-serif;
-	font-size: 1em;
+
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	background-color: var(--Yellow);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: 'Figtree';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 24px;
+	max-width: 327px;
+	height: 501px;
+
+	background-color: var(--White);
+	border: 1px solid var(--Black);
+	box-shadow: 8px 8px 0px var(--Black);
+	border-radius: 20px;
+}
+
+.box .imagem {
+	display: block;
+	background: var(--Yellow) url(../images/illustration-article.svg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 279px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+.box .descricao {
+	background-color: beige;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+
+	width: 100%;
+	height: 173px;
+}
+
+.box .descricao .category {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 73px;
+	height: 26px;
+	background-color: var(--Yellow);
+	border-radius: 4px;
+
+	font-weight: 900;
+	font-size: 12px;
+	color: var(--Black);
+}
+
