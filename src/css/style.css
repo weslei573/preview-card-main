@@ -86,6 +86,11 @@ body {
 .box .descricao > h1 {
 	font-weight: 800;
 	font-size: 20px;
+	cursor: pointer;
+}
+
+.box .descricao > h1:hover {
+	color: var(--Yellow);
 }
 
 .box .descricao > p {
