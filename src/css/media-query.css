@@ -5,8 +5,6 @@
 	.box {
 		max-width: 384px;
 		height: 522px;
-
-		box-shadow: 16px 16px 0px var(--Black);
 	}
 
 	.box .descricao {
