@@ -44,6 +44,10 @@ body {
 	border-radius: 20px;
 }
 
+.box:hover {
+	box-shadow: 16px 16px 0px var(--Black);
+}
+
 .box .imagem {
 	display: block;
 	background: var(--Yellow) url(../images/illustration-article.svg) no-repeat;
